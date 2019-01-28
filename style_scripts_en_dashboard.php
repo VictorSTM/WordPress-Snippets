@@ -12,7 +12,7 @@ public function vstm_style_dashboard( ) {
 
 /* AÑADIMOS EL FICHERO DE SCRIPS */
 public function vstm_script_dashboard( ) {
-  // wp_register_style( 'Nombre unico', 'Dirección del fichero', 'Dependencia de archivos ( Si debe de cargar despues de otro archivo, indicar aqui )', 'versión', 'Boolean que indica si quieres que el script se carge en el footer');
+  // wp_register_script( 'Nombre unico', 'Dirección del fichero', 'Dependencia de archivos ( Si debe de cargar despues de otro archivo, indicar aqui )', 'versión', 'Boolean que indica si quieres que el script se carge en el footer');
  wp_register_script( 'vstm_script_dashboard', plugin_dir_url( __FILE__ ) . 'rutaarchivo', array(), "versión", true ); // Registramos el script que elijamos para usarlo posteriormente
  wp_enqueue_script( 'vstm_script_dashboard' ); // Encolamos el fichero que registramos en la linea anterior para que se ejecute cuando carguemos el dasboard de WordPress
 }
