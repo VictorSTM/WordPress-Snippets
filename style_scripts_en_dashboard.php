@@ -1,3 +1,4 @@
+<?php 
 /*
 * Snippets para añadir ficheros con scripts o styles para ejecutar en el dashboard de WordPress
 */
@@ -9,6 +10,8 @@ public function vstm_style_dashboard( ) {
  wp_register_style( 'vstm_style_dashboard', plugin_dir_url( __FILE__ ) . 'rutaarchivo', array(), 1.0 ); // Registramos el archivo style que elijamos para usarlo posteriormente
  wp_enqueue_style( 'vstm_style_dashboard' ); // Encolamos el fichero que registramos en la linea anterior para que se ejecute cuando carguemos el dasboard de WordPress
 }
+
+echo "Hello World;"
 
 /* AÑADIMOS EL FICHERO DE SCRIPS */
 public function vstm_script_dashboard( ) {
