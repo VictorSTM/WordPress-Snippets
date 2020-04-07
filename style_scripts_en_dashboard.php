@@ -13,6 +13,8 @@ public function vstm_style_dashboard( ) {
 
 echo "Hello World;"
 
+ Hola que tal
+  
 /* AÑADIMOS EL FICHERO DE SCRIPS */
 public function vstm_script_dashboard( ) {
   // wp_register_script( 'Nombre unico', 'Dirección del fichero', 'Dependencia de archivos ( Si debe de cargar despues de otro archivo, indicar aqui )', 'versión', 'Boolean que indica si quieres que el script se carge en el footer');
