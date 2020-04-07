@@ -2,7 +2,7 @@
 /*
 * Snippets para añadir ficheros con scripts o styles para ejecutar en el dashboard de WordPress
 */
-add_action( 'admin_enqueue_scripts', 'vstm_style_dashboard' );
+add_action( 'admin_enqueue_scripts', 'vstm_style_hola_dashboard' );
 
 /* AÑADIMOS EL FICHERO DE ESTILOS */
 public function vstm_style_dashboard( ) {
